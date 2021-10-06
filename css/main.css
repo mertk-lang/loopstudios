@@ -22,7 +22,7 @@ html, body {
 
 .container {
     margin: auto;
-    max-width: 1100px;
+    max-width: 1440px;
     overflow: auto;
     padding: 0 20px;
 }
@@ -78,7 +78,7 @@ html, body {
 
 /* About */
 
-#about {
+#about .container {
     height: 70vh;
     display: grid;
     grid-template-rows: 0.4fr;
@@ -121,7 +121,7 @@ html, body {
 #products {
     display: flex;
     justify-content: space-between;
-    margin: 0px 40px 20px 40px;
+    margin: 0px 210px 80px 210px;
 }
 
 #products .products-btn {
@@ -142,6 +142,17 @@ html, body {
 
 /* Features */
 
+#features {
+    margin: 0px 120px 0px 120px;
+}
+
+#features .features-content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+
 #features .feature {
    position: relative;
    color: white;
@@ -149,10 +160,50 @@ html, body {
 
 #features .feature h3 {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 36px;
+    left: 24px;
 }
 
 #features .feature .feature-text {
-    
+    margin: 0px 0px 20px 20px;
+}
+
+#features .feature .feature-text h3 {
+    margin: 0px 0px 30px 20px;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 30px 0px 0px 0px;
+    color: #fff;
+    height: 15vh;
+    background: #000;
+}
+
+#footer .footer-debut {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footer .footer-debut .footer-debut-socials a {
+    margin-right: 10px;
+}
+
+#footer .footer-debut h2 {
+    margin-left: 20px;
+}
+
+#footer .footer-credentials {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footer .footer-credentials p {
+    margin-top: 25px;
 }
