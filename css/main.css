@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main Stying */
+
+html, body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-dark {
+    color: #000;
+}
+
+/* Utilities */
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Showcase */
+
+#showcase {
+    background: url('../images/desktop/image-hero.jpg') no-repeat
+    center center/cover transparent;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.navbar {
+    margin-top: 12px;
+}
+
+.navbar .navbar-nav  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navbar-nav .navbar-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar .navbar-nav li {
+    margin: 20px;
+}
+
+.navbar .navbar-nav h3 {
+    margin: 20px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.main-header {
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 220px 0px 0px 20px;
+}
+
+.main-header-text {
+    padding: 20px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+/* About */
+
+#about {
+    height: 70vh;
+    display: grid;
+    grid-template-rows: 0.4fr;
+    grid-template-columns: 0.9fr;
+    margin: 70px 0px 70px 0px;
+    text-align: center;
+}
+
+
+#about .about-text {
+    width: 430px;
+    font-size: 15px;
+    background-color: #fff;
+    text-align: center;
+    padding: 70px;
+    grid-column: 2 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.about-item:first-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+
+.about-text h1 {
+    margin-bottom : 12px;
+    font-weight: 300;
+    font-size: 35px;
+    display: flex;
+}
+
+.about-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Products */
+
+#products {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 20px 40px;
+}
+
+#products .products-btn {
+    background: #fff;
+    padding: 10px 30px 10px 30px; 
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #000;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#products .products-header {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+/* Features */
+
+#features .feature {
+   position: relative;
+   color: white;
+}
+
+#features .feature h3 {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+#features .feature .feature-text {
+    
+}
